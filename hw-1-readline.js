@@ -19,7 +19,7 @@ rl.on('line', (line) => {
         console.log('\x1b[36m%s\x1b[0m', `Отгадано число ${secret} с попытки ${countOfAttempts}\n\n`);
         start();
     } else {
-        console.log(line > secret ? 'Больше' : 'Меньше');
+        console.log(line > secret ? 'Меньше' : 'Больше');
     }
 });
 
