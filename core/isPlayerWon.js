@@ -1,0 +1,1 @@
+module.exports.isPlayerWon = (riddle, playerAnswer) => riddle === playerAnswer;
