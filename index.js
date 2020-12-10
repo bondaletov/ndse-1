@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const prompts = require('prompts');
 const { writeLog } = require('./core/logger');
 const { getRandomInt } = require('./core/getRandomInt');
