@@ -1,0 +1,23 @@
+{
+  "name": "hw-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "node -r dotenv/config index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "geoip-lite": "^1.4.2",
+    "prompts": "^2.4.0",
+    "public-ip": "^4.0.3",
+    "yargs": "^16.2.0"
+  }
+}
